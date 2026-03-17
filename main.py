@@ -2,10 +2,7 @@
 import time
 from dotenv import load_dotenv
 import os
-
 from telegram_bot import telegram_gonder
-
-load_dotenv()
 import engineio.packet
 import re
 import requests
